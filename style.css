@@ -42,7 +42,13 @@ body {
     font-weight: 400;
     margin: 1rem 0;
 }
-
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 100%;
+    width: 100%;
+}
 button {
     color: hsl(0,0%,100%);
     background-color: hsl(0,0%,20%);
