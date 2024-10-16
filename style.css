@@ -42,13 +42,7 @@ body {
     font-weight: 400;
     margin: 1rem 0;
 }
-.buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    max-width: 100%;
-    width: 100%;
-}
+
 button {
     color: hsl(0,0%,100%);
     background-color: hsl(0,0%,20%);
@@ -58,6 +52,7 @@ button {
     border-radius: 7px;
     font-family: Inter;
     font-weight: 600;
+    width: 100%;
 }
 button:active {
     background-color: hsl(75,94%,57%);
