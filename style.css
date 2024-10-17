@@ -49,17 +49,25 @@ body {
     max-width: 100%;
     width: 100%;
 }
-button {
+.button-link {
     color: hsl(0,0%,100%);
     background-color: hsl(0,0%,20%);
     border: none;
     cursor: pointer;
-    padding: 1rem;
+    padding: .75rem;
     border-radius: 7px;
     font-family: Inter;
-    font-weight: 600;
+    font-weight: 400;
     width: 100%;
+    text-align: center;
+    text-decoration: none;
 }
-button:active {
+.button-link:active {
     background-color: hsl(75,94%,57%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
